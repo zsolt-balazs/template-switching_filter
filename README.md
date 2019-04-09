@@ -3,7 +3,7 @@ These are the scripts which were used during the template-switching study #curre
 
 Apply the scripts on the outputs of the LoRTIA toolkit [LoRTIA]. 
 
-#Usage
+###Usage
 ```sh
 ts_launcher.py /path/to/LoRTIA-output/prefix -r /path/to/reference.fasta
 ```

@@ -1,4 +1,4 @@
-# template-switching_filter
+# Template switching filtering algorithm
 These are the scripts which were used during the study highlighting the importance of template-switching artefacts in the analysis of polyadenylation (currently under review).
 The filtering algorithm can only be used to filter artefactual polyA sites from long-read cDNA sequencing data.
 

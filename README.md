@@ -47,7 +47,7 @@ Download all the files from this repository, add them to your path, and run:
 ```sh
 ts_launcher.py /path/to/LoRTIA-output/prefix -r /path/to/reference.fasta
 ```
-The `prefix` is the prefix of the output files of the LoRTIA toolkit, e.g. the output BAM file would be `prefix_out_sorted.bam`. The reference file has to be the same that was used for the mapping. The outputs of the algorithm go to the same folder where the LoRTIA TSV files are. The outputs are `prefix_ts_l3_tes.tsv` and `prefix_ts_r3_tes.tsv`, which are the summary tables of the polyA sites in A-rich regions and `prefix_ts_tes.gff3` and `prefix_not_ts_tes.gff3`, which are the GFF files of the template-switching artefacts and the genuine TESs, respectively.
+The `prefix` is the prefix of the output files of the LoRTIA toolkit, e.g. the output BAM file would be `prefix_out_sorted.bam`. The reference file has to be the same that was used for the mapping. The outputs of the algorithm are saved to the same folder where the LoRTIA TSV files are. The outputs are `prefix_ts_l3_tes.tsv` and `prefix_ts_r3_tes.tsv`, which are the summary tables of the polyA sites in A-rich regions and `prefix_ts_tes.gff3` and `prefix_not_ts_tes.gff3`, which are the GFF files of the template-switching artefacts and the genuine TESs, respectively.
 
 ## <a name="options"></a>Advanced options
 Apart from the options detailed in the The filtering algorithm chapter, several other options can be specified the user:

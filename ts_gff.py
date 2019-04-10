@@ -111,8 +111,7 @@ def ts_gff(args):
               header=False,
               sep="\t")
     feature = summary.loc[summary.feature == args.feature]
-    feature.to_csv("{}_not_ts_{}.gff3".format(args.prefix, args.feature + "w" 
-                   + str(args.wobble)),
+    feature.to_csv("{}_not_ts_{}.gff3".format(args.prefix, args.feature),
                    index=False,
                    header=False,
                    sep="\t")

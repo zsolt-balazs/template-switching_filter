@@ -22,7 +22,7 @@ OR
 are considered as TESs and the rest are marked as template-switching artefacts. 
 In actuality, the number of correct reads can be modified, by the `--multiplier [1.0]` option. E.g. etting the `--multiplier` 2.0 will mean that the number of correct will be counted as double. That means that if there are 4 artefactual and 2 correct reads at a potential polyA site, the site is discarded at default settings, but accepted if the `--multiplier` is set 2.0. The `limit` is dependent on the number of adenines counted in the region around the poly(A) site. The default values are calculated by the following formula: 0.8/(1+2^(-100*(1/(20-A_count)-0.08))), where A_count is the number of As upstream of a polyA site. The values can be modified by changing the `dict.tsv` file. A different dict file can also be specified using the `--dictionary` option.
 
-The adenine content of a region is determined using the reference FASTA file. The 20 nucleotides immediately upstream of the polyA site are iterated one-by-one. Each A counts as +1, while other nucleotides count -1. A counter is run over the iteration until the counter reaches -1 or till the end of the 20 nucleotides. The highest value of the counter is the adenine content of a region.
+The adenine content of a region is determined using the `--reference` FASTA file. The 20 nucleotides immediately upstream of the polyA site are iterated one-by-one. Each A counts as +1, while other nucleotides count -1. A counter is run over the iteration until the counter reaches -1 or till the end of the 20 nucleotides. The highest value of the counter is the adenine content of a region.
 Examples:
 ```txt
 +1 +1 +1 +1 -1 +1 +1 -1 +1 +1 -1 -1 -1 +1 -1 -1 -1 +1 -1 -1

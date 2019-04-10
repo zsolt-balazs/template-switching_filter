@@ -43,6 +43,7 @@ A count: 2
 
 ## <a name="usage"></a>Usage
 Apply the scripts on the outputs of the [LoRTIA] toolkit. 
+Download all the files from this repository, add them to your path, and run:
 ```sh
 ts_launcher.py /path/to/LoRTIA-output/prefix -r /path/to/reference.fasta
 ```

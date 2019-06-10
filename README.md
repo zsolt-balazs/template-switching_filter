@@ -51,8 +51,8 @@ The `prefix` is the prefix of the output files of the LoRTIA toolkit, e.g. the o
 
 ## <a name="options"></a>Advanced options
 Apart from the options detailed in the The filtering algorithm chapter, several other options can be specified the user:
-- The argument `distance [15]` specifies the distance upstream of the polyA site, where the coverage value is to be calculated.
-- The coverage is averaged over a `cov_sample [5]` number of nucleotides. The coverage value is used as the number of reads overlapping a certain polyA site. The default settings mean that the coverages of the nucleotides 19 to 15 nucleotides upstream of a TES are averaged to form the coverage value.
+- The argument `--distance [15]` specifies the distance upstream of the polyA site, where the coverage value is to be calculated.
+- The coverage is averaged over a `--cov_sample [5]` number of nucleotides. The coverage value is used as the number of reads overlapping a certain polyA site. The default settings mean that the coverages of the nucleotides 19 to 15 nucleotides upstream of a TES are averaged to form the coverage value.
 
 [LoRTIA]: https://github.com/zsolt-balazs/LoRTIA
 [splice junctions]: https://www.sciencedirect.com/science/article/pii/S0888754305003770

@@ -35,7 +35,7 @@ A count: 6
  1  2  3  2  1  2  1  0  1  2  3  2  3  4  3  4  3  4  3  2
 A count: 4
  
-+1 +1 +1 -1 -1 
++1 +1 -1 -1 -1 
  A  A  C  C  T  G  A  A  A  A  T  C  T  A  C  G  C  A  C  A
  1  2  1  0 -1
 A count: 2
